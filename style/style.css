@@ -45,9 +45,6 @@ nav{
 section{
     background-color: #ffffff;
 }
-section:nth-child(even){
-    background-color: #f6f6f6;
-}
 .hero-section{
     margin: 0 auto;
     max-width: 900px;
@@ -71,7 +68,7 @@ section:nth-child(even){
 }
 .container{
     margin: 0 auto;
-    margin-top: 3rem;
+    padding-top: 3rem;
     max-width: 900px;
     display: flex;
     align-items: center;
@@ -103,10 +100,16 @@ section:nth-child(even){
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
 
 }
 .wave{
-    color: #853939;
+    color: #f6f6f6;
+    rotate: 180deg;
+}
+.wave-2{
+    color: white;
+    rotate: 180deg;
 }
 .btn-viol{
     background-color: #7289da;
@@ -153,4 +156,18 @@ footer{
     background-color: #23272a;
     color: #23272a;
     border: 0;
+}
+.icon{
+    width: 25px;
+}
+.color-icon{
+    fill: white;
+}
+.list-icon{
+    padding-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+span{
+    color: white;
 }
