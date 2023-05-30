@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    width: 100%;
+    background-color: #2a5ee8;
+}
+.container-nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: #2a5ee8;
+}
+.logo{
+    text-align: center;
+}
+.links{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a{
+    padding: 1rem 0.7rem;
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    padding: 0.5rem;
+    min-width: 90px;
+}
+.section-img{
+    background-image: url(/htmlcss-discord/img/jumbo.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+section{
+    background-color: #ffffff;
+}
+section:nth-child(even){
+    background-color: #f6f6f6;
+}
+.hero-section{
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding-top: 9rem;
+    padding-bottom: 12rem;
+}
+.hero-section >h1{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.hero-section p{
+    padding-bottom: 1rem;
+}
+.btn-drk{
+    background-color: #23272a ;
+    color: white;
+}
+.container{
+    margin: 0 auto;
+    margin-top: 3rem;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 150px;
+}
+.container img{
+    width: 60%;
+}
+.text-section{
+    align-self: flex-start;
+    padding-top: 2rem;
+    padding-right: 100px;
+}
+.text-section p{
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+.text-section h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.last-section img{
+    width: 100%;
+    background-color: #f6f6f6;
+}
+.container-big{
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.wave{
+    color: #853939;
+}
+.btn-viol{
+    background-color: #7289da;
+    color: white;
+}
+.btn-viol::before{
+    content: "\2193";
+}
+/* Inizio del footer */
+footer{
+    background-color: #23272a;
+}
+.foot{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container-footer{
+    padding-top: 2rem;
+    align-items: flex-start;
+}
+.container-footer ul{
+    list-style-type: none;
+    color: #7188d9;
+}
+.container-footer li{
+    color: white;
+}
+.container-footer h3{
+    color: #7188d9;
+}
+.container-footer img{
+    width: 15%;
+}
+.container-last{
+    margin: 5px auto;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+.container-last .btn{
+    background-color: #7289da;
+}
+.logo-button{
+    background-color: #23272a;
+    color: #23272a;
+    border: 0;
+}
