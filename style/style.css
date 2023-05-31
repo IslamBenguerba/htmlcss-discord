@@ -45,6 +45,12 @@ nav{
 section{
     background-color: #ffffff;
 }
+.section-grey{
+    background-color: #f6f6f6;
+}
+section:nth-child(1+1n){
+    background-color: #2a5ee8;
+}
 .hero-section{
     margin: 0 auto;
     max-width: 900px;
@@ -170,4 +176,10 @@ footer{
 }
 span{
     color: white;
+}
+li:first-child{
+    color: #7188d9;
+}
+.container-big >h2{
+    background-image: url(../img/stars.svg);
 }
